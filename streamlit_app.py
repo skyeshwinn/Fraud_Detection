@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("fraud_detection_pipeline.pkl")
+model = joblib.load("C:/Users/skyes/OneDrive/Documents/Learning/Logistic Regression/fraud_detection_pipeline.pkl")
 
 st.title("Fraud Detection Prediction App")
 
